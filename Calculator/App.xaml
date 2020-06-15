@@ -5,18 +5,18 @@
              StartupUri="MainWindow.xaml">
     <Application.Resources>
         <Style  x:Key="beautifulStyleText" TargetType="{x:Type Window}">
-            <Setter Property="Foreground" Value="Maroon"/>
+            <Setter Property="Foreground" Value="Black"/>
             <Setter Property="FontFamily" Value="Monotype Corsiva"/>
             <Setter Property="FontWeight" Value="Bold"/>
             <Setter Property="FontSize" Value="24pt"/>
         </Style>
         <Style x:Key="beautifulStyleGrid" TargetType="{x:Type Grid}">
-            <Setter Property="Background" Value="DarkMagenta"/>
+            <Setter Property="Background" Value="Silver"/>
         </Style>
-        <Style x:Key="beautifulStyleControl" TargetType="{x:Type Control}">
-            <Setter Property="Foreground" Value="Maroon"/>
-            <Setter Property="Background" Value="Pink"/>
-        </Style>
+        <!--<Style x:Key="beautifulStyleControl" TargetType="{x:Type Control}">
+            <Setter Property="Foreground" Value="DarkBlue"/>
+            <Setter Property="Background" Value "DarkBlue"/>
+        </Style>-->
         <Style TargetType="{x:Type Border}">
             <Setter Property="BorderBrush" Value="Transparent"/>
             <Setter Property="CornerRadius" Value="10"/>
@@ -26,8 +26,8 @@
                 <Setter.Value>
                     <LinearGradientBrush  EndPoint="0.5,1" StartPoint="0.5,0">
                         <LinearGradientBrush.GradientStops>
-                            <GradientStop Color="DarkMagenta" Offset="0"/>
-                            <GradientStop Color="Pink" Offset="1"/>
+                            <GradientStop Color="Silver" Offset="0"/>
+                            <!--<GradientStop Color="Pink" Offset="1"/>-->
                         </LinearGradientBrush.GradientStops>
                     </LinearGradientBrush>
                 </Setter.Value>
