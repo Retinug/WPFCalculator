@@ -37,13 +37,13 @@
         <Button Content="1" Margin="2" Grid.Row="5" Style="{DynamicResource beautifulStyleControl}" Click="button_Click"/>
         <Button Content="+-" Margin="2" Grid.Row="6" Style="{DynamicResource beautifulStyleControl}" Tag="Invert" Click="button_Click"/>
         <Button Content="CE" Margin="2" Grid.Row="1" Grid.Column="1" Style="{DynamicResource beautifulStyleControl}" Click="button_Click" Tag="CE"/>
-        <Button Content="sqr" Margin="2" Grid.Row="2" Grid.Column="1" Style="{DynamicResource beautifulStyleControl}" Click="button_Click"/>
+        <Button Content="sqr" Margin="2" Grid.Row="2" Grid.Column="1" Style="{DynamicResource beautifulStyleControl}" Click="button_Click" Tag="Sqr"/>
         <Button Content="8" Margin="2" Grid.Row="3" Grid.Column="1" Style="{DynamicResource beautifulStyleControl}" Click="button_Click"/>
         <Button Content="5" Margin="2" Grid.Row="4" Grid.Column="1" Style="{DynamicResource beautifulStyleControl}" Click="button_Click"/>
         <Button Content="2" Margin="2" Grid.Row="5" Grid.Column="1" Style="{DynamicResource beautifulStyleControl}" Click="button_Click"/>
         <Button Content="0" Margin="2" Grid.Row="6" Grid.Column="1" Style="{DynamicResource beautifulStyleControl}" Click="button_Click"/>
         <Button Content="C" Margin="2" Grid.Row="1" Grid.Column="2" Style="{DynamicResource beautifulStyleControl}" Click="button_Click" Tag="C"/>
-        <Button Content="sqrt" Margin="2" Grid.Row="2" Grid.Column="2" Style="{DynamicResource beautifulStyleControl}" Click="button_Click"/>
+        <Button Content="sqrt" Margin="2" Grid.Row="2" Grid.Column="2" Style="{DynamicResource beautifulStyleControl}" Click="button_Click" Tag="Sqrt"/>
         <Button Content="9" Margin="2" Grid.Row="3" Grid.Column="2" Style="{DynamicResource beautifulStyleControl}" Click="button_Click"/>
         <Button Content="6" Margin="2" Grid.Row="4" Grid.Column="2" Style="{DynamicResource beautifulStyleControl}" Click="button_Click"/>
         <Button Content="3" Margin="2" Grid.Row="5" Grid.Column="2" Style="{DynamicResource beautifulStyleControl}" Click="button_Click"/>

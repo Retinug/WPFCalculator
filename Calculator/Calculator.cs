@@ -12,7 +12,6 @@ namespace WindowsFormsApp1
     enum CalculatorUnOperations { Invert, Reciprocal, Backspace, Sqr, Sqrt }
     enum CalculatorOperations { Add, Sub, Mul, Div, Eq, Percent }
 
-
     class Calculator
     {
         double? input = null;
